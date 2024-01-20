@@ -1,0 +1,143 @@
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.394);
+  padding: 15px;
+}
+
+body{
+  background-image: url('/img/background.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: auto; 
+}
+
+h1{
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+h4{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+
+p {
+  font-size: 15px;
+  text-align: left justify;
+  color: rgb(255, 255, 255);
+}
+
+.footer-container {
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgba(0, 0, 0, 0.394);
+}
+
+.end {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+.flex-container {
+  flex: 0 0 400px ;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.flex-container>div {
+  background-color: rgb(95, 24, 24);
+  width: auto;
+  height: auto;
+  margin: 30px;
+  text-align: center;
+  flex-wrap: nowrap;
+
+
+}
+
+.flex-container2 {
+  flex: 0 0 400px ;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+
+.flex-container2>div {
+  flex-direction: column;
+  background-color: rgb(0, 0, 129);
+  width: auto;
+  margin: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.flex-container3 {
+  flex: 0 0 400px ;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.flex-container3>div {
+  flex-direction: column;
+  background-color: rgb(4, 74, 51);
+  width: auto;
+  margin: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.flex-container-titles {
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
